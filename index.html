@@ -3,126 +3,267 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IDKG Limited</title>
+<title>IDKG Limited | Independent Print Consultancy & Procurement</title>
 
 <style>
-body{
-    margin:0;
-    font-family:Arial,Helvetica,sans-serif;
-    line-height:1.6;
-    color:#333;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2933;
+    background: #ffffff;
+    line-height: 1.6;
 }
 
-.hero{
-    background:#0d3b66;
-    color:white;
-    text-align:center;
-    padding:80px 20px;
+header {
+    background: linear-gradient(135deg, #005AA9, #003F7D);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
 }
 
-.hero h1{
-    font-size:48px;
-    margin-bottom:10px;
+.logo {
+    max-width: 220px;
+    margin-bottom: 20px;
 }
 
-.hero p{
-    font-size:22px;
-    max-width:800px;
-    margin:auto;
+header h1 {
+    font-size: 48px;
+    margin: 10px 0;
 }
 
-.section{
-    max-width:1000px;
-    margin:auto;
-    padding:60px 20px;
+header h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0 20px;
 }
 
-.services{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
+header p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
 }
 
-.card{
-    background:#f5f5f5;
-    padding:20px;
-    border-radius:10px;
+.button {
+    display: inline-block;
+    margin: 25px 10px 0;
+    padding: 12px 24px;
+    background: white;
+    color: #005AA9;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
-.contact{
-    background:#0d3b66;
-    color:white;
-    text-align:center;
-    padding:50px 20px;
+.section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
 }
 
-a{
-    color:#fff;
+.section h2 {
+    color: #005AA9;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #f5f8fc;
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px solid #e4e8ed;
+}
+
+.card h3 {
+    color: #003F7D;
+}
+
+.stats {
+    background: #f7f9fc;
+}
+
+.stat {
+    text-align: center;
+    padding: 20px;
+}
+
+.stat strong {
+    display: block;
+    font-size: 34px;
+    color: #005AA9;
+}
+
+.contact {
+    background: #003F7D;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact a {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 14px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="hero">
-    <h1>IDKG Limited</h1>
-    <p>Independent Print Consultancy & Procurement</p>
+<header>
+
+<img src="logo.png" alt="IDKG Limited Logo" class="logo">
+
+<h1>IDKG Limited</h1>
+
+<h2>Independent Print Consultancy, Procurement & Project Management</h2>
+
+<p>
+Helping businesses source, manage and deliver print, merchandise and document solutions across the UK and UAE.
+</p>
+
+<a class="button" href="mailto:ian@idkg.co.uk">Email Ian</a>
+
+<a class="button" href="https://wa.me/971585564822">WhatsApp</a>
+
+</header>
+
+<section class="section">
+
+<h2>About IDKG</h2>
+
+<p>
+IDKG Limited provides independent print consultancy and procurement services, helping businesses source, manage and deliver high-quality print projects across the UK and internationally.
+</p>
+
+<p>
+Founded by Ian Krangel, IDKG works with a trusted network of specialist suppliers to ensure every project is matched with the right production partner, balancing quality, cost, turnaround time and service.
+</p>
+
+<p>
+Clients benefit from a single point of contact, independent advice and hands-on project management from initial brief through to final delivery.
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Print Procurement</h3>
+<p>Independent sourcing and supplier management.</p>
 </div>
 
-<div class="section">
-    <h2>About IDKG</h2>
-
-    <p>
-    IDKG Limited provides independent print consultancy and procurement services,
-    helping businesses source, manage and deliver high-quality print projects
-    across the UK and internationally.
-    </p>
-
-    <p>
-    Founded by Ian Krangel, IDKG works with a trusted network of specialist
-    suppliers to ensure every project is matched with the right production partner,
-    balancing quality, cost, turnaround time and service.
-    </p>
+<div class="card">
+<h3>Book Production</h3>
+<p>Perfect bound, PUR bound and casebound books.</p>
 </div>
 
-<div class="section">
-    <h2>Services</h2>
-
-    <div class="services">
-
-        <div class="card">
-            <h3>Print Procurement</h3>
-            <p>Independent sourcing and supplier management.</p>
-        </div>
-
-        <div class="card">
-            <h3>Book Production</h3>
-            <p>Perfect bound, PUR bound and casebound books.</p>
-        </div>
-
-        <div class="card">
-            <h3>Promotional Merchandise</h3>
-            <p>Branded products, apparel and gifts.</p>
-        </div>
-
-        <div class="card">
-            <h3>Large Format</h3>
-            <p>Exhibitions, signage and display graphics.</p>
-        </div>
-
-    </div>
+<div class="card">
+<h3>Promotional Merchandise</h3>
+<p>Branded gifts, apparel and corporate merchandise.</p>
 </div>
 
-<div class="contact">
-    <h2>Contact Ian Krangel</h2>
+<div class="card">
+<h3>Large Format & Signage</h3>
+<p>Exhibitions, retail graphics, banners and display solutions.</p>
+</div>
 
-    <p>Email: ian@idkg.co.uk</p>
+<div class="card">
+<h3>Managed Print Solutions</h3>
+<p>Device sourcing, service contracts and print management.</p>
+</div>
 
-    <p>UK: +44 (0) 7795 650 399</p>
-
-    <p>UAE: +971 (0) 58 556 4822</p>
+<div class="card">
+<h3>Project Management</h3>
+<p>Managing projects from brief through to delivery.</p>
+</div>
 
 </div>
+
+</section>
+
+<section class="section stats">
+
+<h2>Why Choose IDKG?</h2>
+
+<div class="grid">
+
+<div class="stat">
+<strong>20+</strong>
+Years Industry Experience
+</div>
+
+<div class="stat">
+<strong>UK & UAE</strong>
+Supplier Network
+</div>
+
+<div class="stat">
+<strong>1</strong>
+Single Point of Contact
+</div>
+
+<div class="stat">
+<strong>100%</strong>
+Independent Advice
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Sectors We Support</h2>
+
+<div class="grid">
+
+<div class="card"><h3>Architecture & Design</h3></div>
+
+<div class="card"><h3>Retail</h3></div>
+
+<div class="card"><h3>Education</h3></div>
+
+<div class="card"><h3>Hospitality</h3></div>
+
+<div class="card"><h3>Corporate</h3></div>
+
+<div class="card"><h3>Marketing</h3></div>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Contact Ian Krangel</h2>
+
+<p>📧 ian@idkg.co.uk</p>
+
+<p>🇬🇧 +44 (0) 7795 650 399</p>
+
+<p>🇦🇪 +971 (0) 58 556 4822</p>
+
+</section>
+
+<footer>
+
+© IDKG Limited | Independent Print Consultancy & Procurement
+
+</footer>
 
 </body>
 </html>
